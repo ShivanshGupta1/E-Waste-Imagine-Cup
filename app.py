@@ -62,7 +62,7 @@ subscription_key = '712fb8ca42394295b148d5d78769a25e'#prediction key
 ################################Needful Functions###################################
 def get_prediction(image_data, header_data):
   #copy the URL
-  url = 'https://yamunainstance1-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/a4ea8971-bfaf-48cf-8754-9bbf05343d2a/classify/iterations/Iteration1/image'
+  url = 'https://imaginecupinstance-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/09117061-4ac4-4266-a5c4-6f3722b01216/classify/iterations/E-Waste%20Imagine%20Cup%20V1/image'
   r = requests.post(url,headers = header_data, data = image_data)
   response = json.loads(r.content)
   print(response)
