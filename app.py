@@ -70,7 +70,7 @@ def get_prediction(image_data, header_data):
 
 
 #title of the web app
-st.title("E Waste Classification 123")
+st.title("E Waste Classification")
 
 #main image
 st.image("https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_13659739/Image/recycling/banners/ewaste.jpg", caption = "E-Waste")
