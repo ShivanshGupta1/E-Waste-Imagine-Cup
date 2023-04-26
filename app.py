@@ -57,7 +57,7 @@ css_style = """
 st.markdown(css_style, unsafe_allow_html=True)
 
 #####subscription key
-subscription_key = '712fb8ca42394295b148d5d78769a25e'#prediction key
+subscription_key = 'c537b6bc07cd411295298cb315e9ecc2'#prediction key
 
 ################################Needful Functions###################################
 def get_prediction(image_data, header_data):
